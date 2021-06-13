@@ -31,7 +31,7 @@ header ul li a{
 main{
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(22, 135, 167,0.7),rgba(22, 135, 167,0.7)), url(cookie-stand/img/background-image.jpg);
+  background-image: linear-gradient(rgba(22, 135, 167,0.7),rgba(22, 135, 167,0.7)), url(https://moayadalhaj.github.io/cookie-stand/img/background-image.jpg);
   background-position: center;
   background-size: cover;
 }
