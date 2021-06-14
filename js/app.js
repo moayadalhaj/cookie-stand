@@ -17,12 +17,12 @@ let seattle = {
       let listItem = document.createElement('li');
       listElement.appendChild(listItem);
       let listItem1 = getRandomNumber(this.minCustomers, this.maxCustomers);
-      let amountCookiesHour = listItem1 * this.avgCookie;
+      let amountCookiesHour = Math.ceil(listItem1 * this.avgCookie);
       this.total = this.total + amountCookiesHour;
-      listItem.textContent = `${this.workingHoures[i]}: ${Math.floor(amountCookiesHour)} cookies`;
+      listItem.textContent = `${this.workingHoures[i]}: ${amountCookiesHour} cookies`;
     }
     let listTotalElement = document.createElement('li');
-    listTotalElement.textContent = `Total: ${Math.floor(this.total)} cookies`;
+    listTotalElement.textContent = `Total: ${this.total} cookies`;
     listElement.appendChild(listTotalElement);
   }
 };
