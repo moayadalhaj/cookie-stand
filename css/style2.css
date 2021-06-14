@@ -24,30 +24,39 @@ header ul li a{
   text-decoration: none;
   color: #f6f5f5; 
 }
-main {
-  display: flex;
-  margin: auto;
-  margin-top: 10%;
-  width: 90%;
-  justify-content: space-between;
-  color: #04009a;
+main{
+  background: linear-gradient(rgba(22, 135, 167,0.2),rgba(22, 135, 167,0.2));
+  height: 100vh;
 }
 main div{
-  background: #fff3f5;
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
+  padding-top: 150px;
 }
-main h3{
+main table{
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  line-height: 30px;
+}
+main table tr:first-child{
+  border: none;
+  font-weight: bold;
   font-size: 20px;
-  font-weight: 600;
-  padding: 20px;
 }
-main ul{
-  padding-left: 60px;
+
+main table tr:nth-child(even){
+  background: #3edbf0;
 }
-main ul li{
-  list-style: disc;
-  padding-bottom: 5px;
+main table tr td{
+  border: solid 1px #1687a7;
+  font-size: 18px;
+}
+main table tr{
+  border: solid 1px #1687a7;
+}
+main table tr td:first-child, main table tr th:first-child{
+  font-weight: bold;
+  font-size: 20px;
+}
+main table tr:last-child th{
+  border: solid 1px #1687a7;
 }
