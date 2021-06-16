@@ -19,6 +19,23 @@
         </ul>
     </header>
     <main>
+        <div>
+            <fieldset>
+                <legend>Add New Branch</legend>
+                <form id="createForm">
+                    <label for="LocationName">Location name</label><br><br>
+                    <input type="text" name="LocationName" id="LocationName" placeholder="e.g Amman" required><br><br>
+                    <label for="minCustomers">The Minimum Customers</label><br><br>
+                    <input type="number" name="minCustomers" id="minCustomers" placeholder="e.g 5" required><br><br>
+                    <label for="maxCustomers">The Maximum Customers</label><br><br>
+                    <input type="number" name="maxCustomers" id="maxCustomers" placeholder="e.g 10" required><br><br>
+                    <label for="avgCookie">Average Purchased Cookies</label><br><br>
+                    <input type="number" name="avgCookie" id="avgCookie" placeholder="e.g 4 cookie per hour"
+                        required><br><br>
+                    <button type="submit">Save</button>
+                </form>
+            </fieldset>
+        </div>
         <div id="salesData"></div>
     </main>
     <footer></footer>
