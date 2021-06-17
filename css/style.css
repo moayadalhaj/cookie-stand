@@ -27,7 +27,7 @@ header ul li a {
   position: relative;
   color: #f6f5f5;
   text-decoration: none;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 header ul li a::before {
   position: absolute;
@@ -161,23 +161,40 @@ main section:last-child p span {
   color: #f44336;
 }
 footer {
-  height: 150px;
+  height: 200px;
   background: #3edbf0;
   color: #04009a;
 }
-footer div {
-  width: 95%;
+footer .footer-nav {
+  width: 100%;
   display: flex;
   justify-content: space-around;
   padding-top: 10px;
 }
-footer div a {
+footer .footer-nav a {
   text-decoration: none;
   font-size: 24px;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+footer .contact {
+  width: 500px;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: -25px;
+  font-size: 24px;
+  color: #000;
 }
 footer p {
   display: flex;
   justify-content: center;
   padding-top: 45px;
+}
+footer i {
+  margin-left: 20px;
+  padding-right: 15px;
+  color: #000;
+  transition: 0.5s;
+}
+footer i:hover {
+  color: #04009a;
 }
